@@ -1,0 +1,50 @@
+{
+  "test_mae": 0.33289657380607707,
+  "test_rmse": 0.7427995639214663,
+  "test_r2": 0.7649570334793345,
+  "cv_mae_mean": 0.35171372890472413,
+  "cv_mae_std": 0.028230860883818903,
+  "best_hyperparameters": {
+    "n_layers": 5,
+    "dropout_rate": 0.2851405590072417,
+    "learning_rate": 0.0013499523471631675,
+    "batch_size": 64,
+    "n_units_layer_0": 71,
+    "n_units_layer_1": 395,
+    "n_units_layer_2": 83,
+    "n_units_layer_3": 409,
+    "n_units_layer_4": 265
+  },
+  "category_metrics": {
+    "narrow_gap_semiconductor": {
+      "mae": 0.3172058857274932,
+      "n_samples": 286,
+      "true_mean": 0.8556993006993008,
+      "pred_mean": 0.8694064021110535
+    },
+    "metallic": {
+      "mae": 0.1562194218254258,
+      "n_samples": 555,
+      "true_mean": 0.0,
+      "pred_mean": 0.15621942281723022
+    },
+    "insulator": {
+      "mae": 0.9769934440395102,
+      "n_samples": 144,
+      "true_mean": 4.411458333333333,
+      "pred_mean": 3.584193706512451
+    },
+    "semiconductor": {
+      "mae": 0.3661508763981861,
+      "n_samples": 306,
+      "true_mean": 2.196045751633987,
+      "pred_mean": 2.034517288208008
+    },
+    "semimetal": {
+      "mae": 0.27826660708274825,
+      "n_samples": 7,
+      "true_mean": 0.07428571428571429,
+      "pred_mean": 0.30968576669692993
+    }
+  }
+}
